@@ -1,0 +1,620 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+@font-face {
+    font-family: 'gotham_lightregular';
+    src: url('../fonts/copyfonts.com_gotham_light-webfont.eot');
+    src: url('../fonts/copyfonts.com_gotham_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/copyfonts.com_gotham_light-webfont.woff2') format('woff2'),
+         url('../fonts/copyfonts.com_gotham_light-webfont.woff') format('woff'),
+         url('../fonts/copyfonts.com_gotham_light-webfont.ttf') format('truetype'),
+         url('../fonts/copyfonts.com_gotham_light-webfont.svg#gotham_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background:#eff4f7;  /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	font-family:gotham_lightregular !important;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+/**/
+.topHeader-wrapper
+{
+	padding:20px 0px;
+	background:#fff;
+}
+.txtSearch
+{
+	width:230px; 
+	background:url(../images/icon-search.png) no-repeat left;
+	padding-left:30px;
+	background-position: 7px;
+	border: 1px solid #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px #ebebeb;
+}
+.top-leftMenu li
+{
+	list-style:none;
+	float:left;
+	padding-right:25px;
+}
+.menu-dash
+{
+	background: url(../images/icon-menu.png) 0 0px;
+	width:34px;
+	height:32px;
+}
+.menu-msg
+{
+	background: url(../images/icon-menu.png) 0 -100px;
+	width:34px;
+	height:32px;
+}
+.menu-inv
+{
+	background: url(../images/icon-menu.png) 0 -202px;
+	width:34px;
+	height:32px;
+}
+.menu-trans
+{
+	background: url(../images/icon-menu.png) 0 -302px;
+	width:34px;
+	height:32px;
+}
+.menu-withdraw
+{
+	background: url(../images/icon-menu.png) 0 -405px;
+	width:34px;
+	height:32px;
+}
+.menu-admin
+{
+	background: url(../images/icon-menu.png) 0 -506px;
+	width:34px;
+	height:32px;
+}
+/* menu selected images */
+.menu-inv-sel
+{
+	background: url(../images/icon-menu-sel.png) 0 -202px;
+	width:34px;
+	height:32px;
+}
+.menu-inv-sel
+{
+	color:#4ec4e6 !important;
+}
+thead
+{
+	background:#4ec4e6;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th
+{
+	border:none !important;
+	font-weight:normal !important;
+}
+tbody.tbodyStyle tr td img
+{
+	border-radius:40px;
+} 
+.imgEdit img
+{
+	border-radius:0px !important;
+}
+tbody.tbodyStyle tr td{ vertical-align:middle;}
+
+.divpopup-upload
+{
+	display:none;
+	position:absolute;
+	top:50px;
+	background:#fff;
+	padding:20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow:2px 3px 3px #bfc8ce;
+	border:solid 1px #ebebeb;
+	width:300px;
+}
+.divpopup-upload, .divpopup-filter, .divpopup-add h4
+{
+	text-transform:uppercase;
+}
+.uploadtext-blue
+{
+	color:#4ec4e6;
+	font-size:12px;
+}
+
+.divpopup-filter
+{
+	display:none;
+	position:absolute;
+	top:50px;
+	background:#fff;
+	padding:10px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 2px 2px #ebebeb;
+	border:solid 1px #ebebeb;
+	width:300px;
+}
+.divpopup-add
+{
+	display:none;
+	position:absolute; 
+	background:#fff;
+	padding:10px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 2px 2px #ebebeb;
+	border:solid 1px #ebebeb; 
+	right: 46px;
+    top: 38px;
+    width: 770px; 
+}
+
+.ddl-Brand
+{
+	border:solid 1px red;
+	border-radius:5px;
+}
+.lbl-ddl
+{
+	border-radius:5px;
+	background:#eff4f7 url(../images/icon-ddllist.png) no-repeat right;
+	padding-left:30px;
+	background-position:  96%;
+	width:220px;
+	padding:5px;
+}
+
+.lbl-nml
+{
+	border-radius:8px;   
+	width:100px;
+	background:#eff4f7;
+	border:solid 1px #eff4f7;
+	padding-left:10px;
+}
+.lbl-nml-item
+{
+	width:350px !important;
+	background-position:318px !important;
+}
+.lbl-nml-desc
+{
+	border-radius:8px;   
+	width:506px !important;
+	background:#eff4f7;
+	background-position:475px !important;
+	border:solid 1px #eff4f7;
+	padding-left:10px;
+}
+.lbl-cus
+{
+	border-radius:8px;   
+	width:150px !important;
+	background:#eff4f7;
+	border:solid 1px #eff4f7;
+	padding-left:10px;
+}
+.lbl-nml-notes
+{
+	border-radius:8px;   
+	width:684px  !important;
+	background:#eff4f7;
+	background-position:654px !important;
+	border:solid 1px #eff4f7;
+	padding-left:10px;
+}
+.btnGo
+{
+	background: none repeat scroll 0 0 #12cac3 !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 80px;
+	margin-right:12px;
+	border:none;
+}
+.btnGo-sml
+{
+	background: none repeat scroll 0 0 #70dfff !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 20px;
+	margin-right:12px;
+	border:none;
+}
+.btnGo-sml:hover
+{
+	color: #fff;
+	border:none;
+}
+.btnGo:hover
+{
+	color:#fff;
+	border:none;
+}
+.imgItemUpload
+{
+	padding:10px;
+	background:#eff4f7;
+	border-radius:5px;
+}
+.addNewEmpty
+{
+	padding:20px;
+	background:#eff4f7;
+	border-radius:5px;
+}
+
+/* Login style starts here */
+.login-Header
+{
+	background:url(../images/login-bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:30px 0px;
+}
+.login-cntLeft li
+{
+	list-style:none;
+	margin-left:-20px;
+	padding:7px 0px;
+}
+.login-cntLeft li:before {
+    content: "\2022";
+    color: #278db0; /* or whatever color you prefer */
+	font-size:20px;
+}
+.signUp-layout
+{
+	border-radius:8px;
+	border:solid 1px #CCC;
+	background:#dddce6;
+	padding: 20px;
+}
+.txtlogin
+{
+	border:solid 1px #CCC;
+	width:100%;
+	padding:5px 10px;
+	border-radius:6px;
+}
+.btnSignUp
+{
+	background:#12cac3 !important;
+	width:100% !important;
+	color:#fff !important;
+	font-weight:bold;
+}
+.login-cnt-offer
+{
+	background:#e4e9ed;
+	text-center;
+	border-radius:8px;
+	padding:10px;
+	margin:10px 20px;
+}
+.offerRate span
+{
+	font-size:30px;
+}
+.signup-email
+{
+	background:#eaeff2;
+}
+.footerbottom
+{
+	background:#1b9ac0;
+	padding:10px 0px;
+}
+.footermenu li
+{
+	list-style:none;
+	padding-left:50px;
+	float:left;
+	color:#fff;
+}
+.socialMenu li
+{
+	list-style:none;
+	padding-left:30px;
+	float:left;
+	color:#fff;
+}
+.footerbottom p
+{
+	color:#fff;
+}
+a
+{
+	color:#000 !important;
+}
+a:hover
+{
+	color:#000 !important;
+	text-decoration:none !important;
+}
+.modal-dialog
+{
+	width:320px;
+}
+.modal-header
+{
+	border-bottom:none !important;
+}
+.ancModelpopup
+{
+	color:#000 !important;
+}
+.ancModelpopup:hover
+{
+	color:#000 !important;
+}
+ul.footermenu li a
+{
+	color:#fff !important;
+}
+ul.footermenu li a:hover
+{
+	color:#fff;
+}
+a.anc-add
+{
+	color:#09b0e1 !important;
+}
+.dash-left
+{ 
+	float:left;
+	width:25% !important;
+}
+.dash-right
+{ 
+	float:left;
+	width:61%;
+}
+.dash-empty
+{ 
+	float:left;
+	width:8% !important;
+}
+.txt-popup
+{
+	background:#eff4f7 url("../images/icon-ddllist.png") no-repeat right;
+    border: 1px solid #eff4f7;
+    border-radius: 8px;
+	background-position:125px;
+    padding-left: 10px;
+    width: 150px;
+}
+.user-img span img
+{
+	border-radius:8px;
+}
+.login-cont p
+{
+	padding-left:20px;
+}
+
+
+
+
+
+
+
+@media(max-width:1024px) {
+.dash-left
+{ 
+	float:left;
+	width:25% !important;
+}
+.dash-right
+{ 
+	float:left;
+	width:71%;
+}
+.dash-empty
+{ 
+	float:left;
+	width:3% !important;
+}
+}
+
+/* Payments tabs */
+
+.payment-layout
+{
+	background:#0788ae;
+}
+.txtPayment
+{
+	border: 1px solid #d8e9f0;
+    height: 32px;
+    padding: 6px;
+    width: 100%;
+	border-radius:8px;
+}
+.tab-pane-content
+{
+	background:#d8e9f0 !important;
+	border-radius:5px;
+	padding:10px;
+}
+.spanBusiness
+{
+	padding:8px 0px;
+}
+.infoWeak
+{
+	background: none repeat scroll 0 0 #fff;
+    padding: 5px 5px 5px 10px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.infoWeak h5
+{
+	color:#e6205c;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+.btnPayment
+{
+	background: none repeat scroll 0 0 #12cac3 !important;
+    color: #fff !important;
+    font-weight: bold;
+    width: 10% !important;
+}
+.btnPayment-call
+{	
+	background: none repeat scroll 0 0 #a9b2b7 !important;
+    color: #fff !important;
+    font-weight: bold;
+    width: 10% !important;
+}
+.txtPaymentPin
+{
+	border: 1px solid #d8e9f0;
+    height: 40px;
+    padding: 6px;
+    width: 4%;
+	border-radius:8px;
+}
+.btnLogin
+{
+	background:#f2375f !important;
+	width:100% !important;
+}
+.divLogin
+{
+	text-align:center;
+	margin-top:20%;
+	padding:10px 20px;
+	border-radius:10px;
+	background:#e4e9ed;
+	width:420px;
+	margin:0px auto;
+}
+.fbIcon
+{
+	background:#3b5998 url("../images/fb-icon.png") no-repeat left;
+	padding:5px;
+	text-align:center;
+	border-radius:8px;
+	width:100%;
+	height:50px;
+	background-position:7px 0px;
+	color:#fff;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover
+{
+	background-color: #0788ae !important;
+    border: none !important;
+	color:#fff !important;
+}
+.nav-tabs > li > a
+{
+	color:#fff !important;
+}
+.nav > li > a:focus, .nav > li > a:hover
+{
+	background: none !important;
+    border: none !important;
+}

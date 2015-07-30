@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+
+#exampleInputFile {
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	padding: 6px 12px;
+	width: 100%;
+}
+#cols-neded-div {
+	padding-left: 0px !important;
+	padding-right: 0px !important
+}
+#q1 {
+	background:url(../images/dash-ico@2x.png) no-repeat scroll left 10px rgba(0, 0, 0, 0);
+	margin:25px 0 10px 2px;
+	padding:14px 0 25px 36px;
+	white-space: normal;
+	border: none;
+	color: #1d2527;
+	font-weight:normal;
+	text-align:left;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:1;
+	background-size:21px 21px;
+	
+	
+}
+#q1:hover {
+	background:url(../images/dash-ico-hover@2x.png) no-repeat scroll left 10px;
+ color:#09b0e1;background-size:21px 21px; }
+input#q1.active-point {
+	background: url(../images/dash-ico-hover@2x.png) no-repeat scroll left 10px ; color:#1d2527;background-size:21px 21px;letter-spacing: 1px;font-family:gotmid;
+}
+#q2 {
+	background:url(../images/messaging-ico@2x.png) no-repeat scroll left 3px rgba(0, 0, 0, 0);
+	margin: 0px 0 4px 2px;
+	padding: 7px 0 24px 36px;
+	white-space: normal;
+	width: 100%;
+	border: none;	
+	color:#1d2527;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:1;
+	text-align:left;
+	background-size:21px 21px;
+	
+}
+#q2:hover {
+	background:url(../images/messaging-ico-hover@2x.png) no-repeat scroll left 3px ;color:#09b0e1;background-size:21px 21px;}
+input#q2.active-point {
+	background:url(../images/messaging-ico-hover@2x.png) no-repeat scroll left 3px ; 
+	color:#1d2527; font-family:gotmid; background-size:21px 21px;letter-spacing: 1px;
+}
+#q3 {
+	background:url(../images/inventory-ico@2x.png) no-repeat scroll left 10px rgba(0, 0, 0, 0);
+	margin: 0px 0 2px 2px;
+	padding: 15px 0 10px 36px;
+	white-space: normal;
+	width: 100%;
+	border: none;
+	color: #1d2527; 
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:1;
+	text-align:left;
+	background-size:21px 21px;
+	
+}
+#q3:hover {
+	background:url(../images/inventory-ico-hover@2x.png) no-repeat scroll left 10px ;color:#09b0e1;background-size:21px 21px;
+
+}
+input#q3.active-point {
+	background:url(../images/inventory-ico-hover@2x.png) no-repeat scroll left 10px ;
+	color:#1d2527; font-family:gotmid; background-size:21px 21px;letter-spacing: 1px;}
+	
+#q4 {
+	background:url(../images/transaction-ico@2x.png) no-repeat scroll left 10px rgba(0, 0, 0, 0);
+	margin: 15px 0 2px 2px;
+	padding:15px 0 10px 36px;
+	white-space: normal;
+	width: 100%;
+	border: none;
+	color: #1d2527;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:1;
+	text-align:left;
+	background-size:21px 21px;
+	
+}
+#q4:hover {
+	background:url(../images/transaction-ico-hover@2x.png) no-repeat scroll left 10px ;color:#09b0e1;background-size:21px 21px;}
+	
+input#q4.active-point {
+	background:url(../images/transaction-ico-hover@2x.png) no-repeat scroll left 10px ;
+	color:#1d2527; font-family:gotmid; background-size:21px 21px;letter-spacing: 1px;}
+
+/*#q5 {
+	background:url(../images/withdraw_icon@2x.png) no-repeat scroll left 10px rgba(0, 0, 0, 0);
+	margin: 15px 0 24px ;
+	padding: 15px 0 24px 36px;
+	white-space: normal;
+	width: 100%;
+	border: none;
+	color: #1d2527;
+	text-transform:uppercase;
+	font-size:13px;
+	line-height:1;
+	text-align:left;
+	background-size:21px 21px;
+	
+	
+}
+#q5:hover {
+	background:url(../images/withdraw_icon_hover@2x.png) no-repeat scroll left 10px ;color:#09b0e1;font-family:gotmid;background-size:21px 21px;letter-spacing: 1px;
+}
+input#q5.active-point {
+	background:url(../images/withdraw_icon_hover@2x.png) no-repeat scroll left 10px ; color:#09b0e1;font-family:gotmid;background-size:21px 21px;letter-spacing: 1px;
+}*/
+
+#q6 {
+	background:url(../images/admin-ico@2x.png) no-repeat scroll left 10px rgba(0, 0, 0, 0);
+	margin:15px 0 13px 2px;
+	padding:15px 0 25px 36px;
+	white-space: normal;
+	width: 100%;
+	border: none;
+	color: #1d2527;
+	text-transform:uppercase;
+	font-size:13px;
+	line-height:1;
+	text-align:left;
+	background-size:21px 21px;
+	
+	
+	
+}
+#q6:hover {
+	background:url(../images/admin-ico-hover@2x.png) no-repeat scroll left 10px ;color:#09b0e1;background-size:21px 21px;
+}
+input#q6.active-point {
+	background:url(../images/admin-ico-hover@2x.png) no-repeat scroll left 10px ; color:#1d2527; font-family:gotmid;background-size:21px 21px;letter-spacing: 1px;
+}
+
+/*submenu_start*/
+.submenu{ background: none !important;}
+#sm1 {
+	background: url(../images/addimg1@2x.png) no-repeat scroll left 9px rgba(0, 0, 0, 0);
+	margin:0 ;
+	padding:8px 0 0px 21px;
+	white-space: normal;
+	border: none;
+	color: #1d2527;
+	font-weight:normal;
+	text-align:left;
+	font-size:14px;
+	line-height:1;
+	background-size:12px 12px;
+	font-family:gotmid;
+	
+}
+#sm1:hover {
+	background:url(../images/addimg1_hover@2x.png) no-repeat scroll left 9px;
+  color:#09b0e1;font-family:gotmid;background-size:12px 12px;
+}
+
+input#sm1.active-point {
+	background: url(../images/addimg1_hover@2x.png) no-repeat scroll left 9px ; color:#09b0e1;font-family:gotmid;background-size:12px 12px;
+}
+
+#sm2 {
+	background:no-repeat scroll left 10px rgba(0, 0, 0, 0);
+		margin:0 ;
+	padding:10px 0 0px 60px;
+	white-space: normal;
+	border: none;
+	color: #1d2527;
+	font-weight:normal;
+	text-align:left;
+	font-size:14px;
+	line-height:1;
+	background-size:16px 16px;
+	letter-spacing: 1px;
+	font-family:gotmid;
+	
+}
+#sm2:hover {
+	background:no-repeat scroll left 7px;
+ color:#09b0e1;font-family:gotmid;background-size:16px 16px;
+}
+
+input#sm2.active-point {
+	background:no-repeat scroll left 7px ; color:#09b0e1;font-family:gotmid;background-size:16px 16px;
+}
+
+#sm3 {
+	background:no-repeat scroll left 10px rgba(0, 0, 0, 0);
+		margin:0 ;
+	padding:10px 0 0px 60px;
+	white-space: normal;
+	border: none;
+	color: #1d2527;
+	font-weight:normal;
+	text-align:left;
+	font-size:14px;
+	line-height:1;
+	background-size:16px 16px;
+	letter-spacing: 1px;
+	font-family:gotmid;
+	
+}
+#sm3:hover {
+	background:no-repeat scroll left 7px;
+  color:#09b0e1;font-family:gotmid;background-size:16px 16px;
+}
+
+input#sm3.active-point {
+	background:no-repeat scroll left 7px ; color:#09b0e1;font-family:gotmid;background-size:16px 16px;
+}
+
+#catopendiv, #sm3 {}
+#catopendiv {display: none;}
+.closebtn{ background:url(../images/x-ico.png) no-repeat right; background-size:10px 10px; width:130px; height:49px; background-position:108px 21px ;}
+
+#catopendiv, #sm2 {}
+#catopendiv1 {display: none;}
+.closebtn1{ background:url(../images/x-ico.png) no-repeat right; background-size:10px 10px; width:130px; height:49px; background-position:108px 21px ;}
+
+
+#sm4 {
+	background:no-repeat scroll left 10px rgba(0, 0, 0, 0);
+		margin:0 ;
+	padding:10px 0 0px 60px;
+	white-space: normal;
+	border: none;
+	color: #1d2527;
+	font-weight:normal;
+	text-align:left;
+	font-size:14px;
+	line-height:1;
+	background-size:16px 16px;
+	letter-spacing: 1px;
+	font-family:gotmid;
+	
+}
+#sm4:hover {
+	background:no-repeat scroll left 7px;
+  color:#09b0e1;font-family:gotmid;background-size:16px 16px;
+}
+
+input#sm4.active-point {
+	background:no-repeat scroll left 7px ; color:#09b0e1;font-family:gotmid;background-size:16px 16px;
+}
+
+#sm5 {
+	background:url(../images/search-ico@2x.png) no-repeat scroll left 11px rgba(0, 0, 0, 0);
+	margin:0 0 0 60px;
+	padding:10px 0 0px 23px;
+	white-space: normal;
+	border: none;
+	color: #1d2527;
+	font-weight:normal;
+	text-align:left;
+	font-size:14px;
+	line-height:1;
+	background-size:12px 12px;
+	letter-spacing: 1px;
+	font-family:gotmid;
+	
+}
+#sm5:hover {
+	background:url(../images/search-ico@2xhover.png) no-repeat scroll left 11px;
+  color:#09b0e1;font-family:gotmid;background-size:12px 12px;
+}
+
+input#sm5.active-point {
+	background:url(../images/search-ico@2xhover.png) no-repeat scroll left 11px ; color:#09b0e1;font-family:gotmid;background-size:12px 12px;
+}
+
+/*14-5-15*/
+.accmenu ul{ padding:0; margin:10px 0 0 10px;}
+.accmenu ul li{ padding:8px 10px; margin:23px 0; text-transform:uppercase; font-family:gotl; width:170px;}
+.accmenu ul li:hover{font-family:gotmid; background:#506977; border-radius:5px; color:#fff; }
+.accmenu ul li:hover, #active2{font-family:gotmid; background:#506977; border-radius:0; color:#fff;}
