@@ -1755,5 +1755,14 @@ hr{ height:1px; width:auto; background:#bfc8ce; margin:0;}
 
 .lebx{background:url(../images/leicon@2x.png) no-repeat; background-size:21px 21px; float:left; height:21px; width:21px; margin:10px 11px 0;}
 .listbx{background:url(../images/listicon@2x.png) no-repeat; background-size:17px 20px; float:left; height:20px; width:17px; margin:10px 11px 0;}
+/*30-07-15_End*/
+/*10-08-15_Start*/
 
-
+.libluebx{ height:36px; background:#4ec4e6; border-radius:7px 7px 0 0; overflow:hidden;}
+.mesbubbox{ margin-left:21px; height:26px; width:17px; background:url(../images/messbubble@2x.png) no-repeat; background-position:0 9px; background-size:16px 16px; float:left; margin-top:2px;}
+.sptxtbox{float: left;padding: 5px 5%; width: 100%;}
+.sp_sm_bx_w{ background:#e4e9ed; overflow:hidden;}
+.sp_tx_2{color:#000; font-size:.85em; text-align:left; }
+.sp_sm_bx_dg{ background:#d0d8dd; overflow:hidden;}
+.listnubox_sp{ max-height:240px; overflow:auto; }
+/*10-08-15_End*/
