@@ -1468,7 +1468,7 @@ hr{ height:1px; width:auto; background:#bfc8ce; margin:0;}
  font-size: 14px;
 }
 .noti_txt2 { font-size: 13px; font-family:gotl;}
-.noti_txt3 { font-size: 10px; font-family:gotl; color:#bfc8ce;}
+.noti_txt3 { font-size: 10px; font-family:gotl; color:#253137;}
 .bd_txt3 { font-size: 10px; font-family:gotl; color:#1d2527;}
 .seeallbox{ text-align:center; font-family:gotmid; font-size:11px; padding:10px 0; text-transform:uppercase;}
 
@@ -1530,8 +1530,8 @@ hr{ height:1px; width:auto; background:#bfc8ce; margin:0;}
     overflow: hidden;
     width: 343px;
     }
-.messa_nu_box3{float: right;right: 5px;width: 68px;}
-.messa_txt1{ color:#6b7981; font-family:gotmid;font-size: 14px;}
+.messa_nu_box3{float: right;right: 5px;width: 68px; text-align:right;}
+.messa_txt1{ color:#253137; font-family:gotmid;font-size: 14px;}
 .plusbtn{ background:url(../images/add@2x.png) no-repeat right; background-size:16px 16px; background-position:123px 2px;}
 .plusbtn:checked{background:url(../images/toggle-small.png) no-repeat right; background-size:16px 16px; background-position:123px 2px;}
 .spacediv3 {
@@ -1757,7 +1757,6 @@ hr{ height:1px; width:auto; background:#bfc8ce; margin:0;}
 .listbx{background:url(../images/listicon@2x.png) no-repeat; background-size:17px 20px; float:left; height:20px; width:17px; margin:10px 11px 0;}
 /*30-07-15_End*/
 /*10-08-15_Start*/
-
 .libluebx{ height:36px; background:#4ec4e6; border-radius:7px 7px 0 0; overflow:hidden;}
 .mesbubbox{ margin-left:21px; height:26px; width:17px; background:url(../images/messbubble@2x.png) no-repeat; background-position:0 9px; background-size:16px 16px; float:left; margin-top:2px;}
 .sptxtbox{float: left;padding: 5px 5%; width: 100%;}
@@ -1766,3 +1765,45 @@ hr{ height:1px; width:auto; background:#bfc8ce; margin:0;}
 .sp_sm_bx_dg{ background:#d0d8dd; overflow:hidden;}
 .listnubox_sp{ max-height:240px; overflow:auto; }
 /*10-08-15_End*/
+/*13-08-15_Start*/
+.emo_bx{ height:36px; background:#dce4ea; border-radius:7px 7px 0 0; overflow:hidden;}
+.mesbubbox{ margin-left:21px; height:26px; width:17px; background:url(../images/smily_icon@2x.png) no-repeat; background-position:0 9px; background-size:16px 16px; float:left; margin-top:2px;}
+.stickerdiv1{ float:left; background-size:60px 60px; height:60px; width:60px; margin:20px 0 0 20px;}
+
+/*13-08-15_End*/
+
+/*27-08-15-start*/
+.errorpage_1{ background: url(../images/erroepage_1c@2x.png) no-repeat;
+    height: 638px;
+    background-size:cover;
+    max-width: 100%;
+    background-position: 0 -120px;
+    background-attachment: fixed;
+    padding:30px 55px 0 55px;
+}
+.backtxt{ color:#ffffff; background:url(../images/backarrow@2x.png) no-repeat left ; background-size:18px 32px; padding-left:30px; font-size:24px; text-transform:uppercase;}
+.backtxt a{ color:#fff; text-decoration:none;}
+.backtxt a:hover{ color:#fff; text-decoration:none;}
+.errortxt{ font-family:gotmid; font-size:36px; color:#ffffff; padding:38px 0 23px 0; }
+.backtxt_nu{ color:#ffffff; font-size:24px; width:40%;}
+
+.errorpage_2{ background: url(../images/errorpagebg2a@2x.png) no-repeat;
+    height: 674px;
+    background-size:cover;
+    max-width: 100%;
+    background-position: 0 -120px;
+   
+}
+.errortxt1{ font-family:gotmid; font-size:36px; color:#ffffff; padding:32px 0 36px 60px; }
+.txt1_he{ color:#fff; padding:0 0 36px 60px; width:52%; }
+.txt1_he a{ color:#09b0e1; text-decoration:underline;}
+.txt2_be{ font-style:italic; color:#ffffff;padding:182px 0 0 60px; width:50%;}
+/*27-08-15-end*/
+
+/*28-08-15-start*/
+.newchatbox{background: #dce4ea none repeat scroll 0 0;border-radius: 20px;margin: 10px 0 0;padding: 10px 20px;width: 70%;}
+.chat_rightbox_nu{ float:left; clear:both; overflow:hidden; padding:10px 10px 15px 10px; text-align:right;}
+.noti_p_box1nu {float: right; margin: 0 0 0 7px; width:55px; }
+.noti_txt2nu{font-size: 13px; font-family:gotl;background: #0280f8 none repeat scroll 0 0;border-radius: 20px;margin: 10px 0 0;padding: 10px 20px;width: 77%; color:#ffffff; float:right;}
+.messa_nu_box3nu{float:left;right: 5px;width: 68px; text-align:left;}
+/*28=08-15-end*/ 
